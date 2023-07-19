@@ -8,22 +8,21 @@
 
 int main(void)
 {
-	float first, second, next;
-	int c;
+float i, j, k;
+int c;
 
-	first = 1;
-	second = 2;
-	c = 2;
+i = 1;
+j = 2;
 
-	printf("%.f, %.f", first, second);
-	while (c  < 98)
-	{
-		next = first + second;
-		first = second;
-		second = next;
-		printf(", %.f", next);
-		c++;
-	}
-	printf("\n");
-	return (0);
+
+printf("%.f, %.f", i, j);
+for (c = 2; c < 98; c++)
+{
+k = i + j;
+i = j;
+j = k;
+printf(", %.f", k);
+}
+printf("\n");
+return (0);
 }

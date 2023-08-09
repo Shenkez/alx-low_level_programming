@@ -4,8 +4,8 @@
 
 /**
  * str_concat - function that concatenates two strings.
- *              if NULL is passed, treat it as an empty string
- *              The function should return NULL on failure
+ * if NULL is passed, treat it as an empty string
+ * The function should return NULL on failure
  *
  * @s1: This is the output string
  * @s2: This is the input string

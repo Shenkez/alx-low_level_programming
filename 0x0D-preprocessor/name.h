@@ -1,4 +1,4 @@
-#ifndef NAME_H
+#ifndef NAME
 #define NAME printf("2-main.c\n")
 
-#endif /*NAME_H*/
+#endif /*NAME*/

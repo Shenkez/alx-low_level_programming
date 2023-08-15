@@ -1,4 +1,4 @@
 #ifndef NAME
-#define NAME printf("02-main.c\n")
+#define NAME printf("%s\n", __FILE__)
 
 #endif /*NAME*/

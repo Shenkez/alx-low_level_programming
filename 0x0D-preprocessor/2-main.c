@@ -1,5 +1,4 @@
-#include "name.h"
-#include "name.h"
+#include <stdio.h>
 
 /**
  * main - check the code
@@ -8,5 +7,6 @@
  */
 int main(void)
 {
-	return (NAME);
+	printf("%s\n", __FILE__);
+		return (0);
 }

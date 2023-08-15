@@ -1,3 +1,4 @@
+#include <stdio.h>
 #ifndef NAME
 #define NAME printf("%s\n", __FILE__)
 

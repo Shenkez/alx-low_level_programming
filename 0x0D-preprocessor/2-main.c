@@ -1,6 +1,5 @@
 #include "name.h"
 #include "name.h"
-#include <stdio.h>
 
 /**
  * main - check the code

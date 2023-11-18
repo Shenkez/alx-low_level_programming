@@ -1,3 +1,4 @@
 #!/bin/bash
-gcc -fPIC -shared -o lib_test.so test.c
-export LD_PRELOAD=/$PWD/lib_test.so
+wget -P /tmp https://github.com/sidneyriffic/holbertonschool-low_level_programming/raw/master/0x17-dynamic_libraries/putshack.so
+export LD_PRELOAD=/tmp/putshack.so
+

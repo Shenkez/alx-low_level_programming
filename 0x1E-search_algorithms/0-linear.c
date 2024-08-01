@@ -1,20 +1,25 @@
-#include "dog.h"
-#include <stdlib.h>
+#include "search_algos.h"
 
 /**
- * init_dog - initialize a variable of type `struct dog`
- * @d: struct dog
- * @name: string for name
- * @age: integer for age
- * @owner: string for owners
- */
+  * linear_search - linear search
+  * @array: pointer to first element in search array
+  * @size: size of array
+  * @value: value to find
+  *
+  * Return: index where found or -1
+  */
 
-void init_dog(struct dog *d, char *name, float age, char *owner)
+int linear_search(int *array, size_t size, int value)
 {
-if (d != NULL)
-{
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
-}
+	unsigned int i;
+
+	if (array == NULL)
+		return (-1);
+	for (i = 0; i < size; i++)
+	{
+		printf("Value checked array[%d] = [%d]\n", i, array[i]);
+		if (array[i] == value)
+			return (i);
+	}
+	return (-1);
 }
